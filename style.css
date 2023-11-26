@@ -1,0 +1,143 @@
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">);
+
+:root {
+    --corprincipal: #F3F5FC;
+    --coroutput: #FFF;
+    --corbotaocript: #0A3871;
+    --corbotaodescript: #D8DFE8;
+    --cortexto: #343A40;
+    --cortextomenor: #495057;
+
+}
+
+body {
+    background-color: var(--corprincipal);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;  
+}
+
+.cabecalho h1{
+    color: #0A3871;
+}
+
+.cabecalho img {
+    max-width: 70px;
+    max-height: 70px;
+    width: auto;
+    height: auto;
+}
+
+.conteudo__principal__area__de__texto {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 4%
+}
+
+.conteudo__principal__area__de__texto .area__de__texto {
+    width: 400px;
+    height: 330px
+}
+
+#input-text {
+    width: 300px;
+    height: 270px;
+    font-size: 20px;
+    color: var(--corbotaocript);
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    outline: 0;
+    padding: 10px;
+    text-transform: uppercase;
+    
+}
+
+#output {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid var(--corbotaocript);
+    border-radius: 20px;
+    width: 350px;
+    height: 400px;
+    margin-right: 3%;;
+}
+
+#output h2{
+    text-align: center;
+    font-size: 25px;
+    color: var(--cortexto);
+}
+
+#output span{
+    font-size: 16px;
+    text-align: center;
+    color: var(--cortextomenor);
+}
+
+#output img{
+    max-width:300px;
+    max-height:300px;
+    width: auto;
+    height: auto;
+    margin-top: 4%;
+}
+
+.contem__botoes button{
+    border: 2px solid var(--corbotaocript);
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--corbotaocript);
+    width: 150px;
+    height: 50px;
+    margin-left: 4%;
+    cursor: pointer;
+}
+
+.btn-copiar{
+border: 2px solid color: var(--corbotaocript);
+border-radius: 10px;
+text-decoration: none;
+color: var(--corbotaoscript);
+width: 150px;
+height: 50px;
+margin-bottom: 10%;
+margin-left: 30%;
+cursor: pointer;
+}
+
+.contem__botoes button:hover{
+border: 2px solid var(--cortextomenor);
+transition: 0.5s all;
+}
+
+.rodape {
+    display: flex;
+    align-content: center;
+    background-color: var(--cortextomenor);
+    padding: 2%;
+    padding-bottom: 2%;
+    font-size: 16px;
+  }
+
+.rodape h3 {
+    display: flex;
+    align-items: center;
+    color: var(--corbotaocript);
+    padding: 0;
+}
+
+
+
